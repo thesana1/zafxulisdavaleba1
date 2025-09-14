@@ -227,6 +227,10 @@ body.dark .input-section {
   color: #C8CBE7;
   transition: all 0.3s;
 }
+body.dark .input-section input::placeholder {
+  color: #ffffff;
+  transition: all 0.3s;
+}
 
 body.dark .input-section input {
   color: #25273D;
@@ -241,8 +245,14 @@ body.dark .maintodo {
 }
 
 body.dark .todotext {
-  color: #C8CBE7;
-    transition: all 0.3s;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+body.dark .input-section input {
+  color: #fff;
+  background-color: #25273D;
+  transition: all 0.3s;
 }
 
 body.dark .todotext.completed-text {
