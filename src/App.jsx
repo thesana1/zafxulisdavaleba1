@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
   const [inputValue, setInputValue] = useState('')
   const [todos, setTodos] = useState([])
-  const [filter, setFilter] = useState('all') // "all" | "active" | "completed"
+  const [filter, setFilter] = useState('all')
   const [darkMode, setDarkMode] = useState(false)
 
   useEffect(() => {
