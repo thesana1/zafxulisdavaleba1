@@ -194,7 +194,7 @@ body{
 }
 .filter-btn.active {
     transition: all 0.3s;
-  color: #3A7CFD; /* highlight active filter */
+  color: #3A7CFD; 
   font-weight: 600;
 }
 
@@ -269,11 +269,6 @@ body.dark .clear-btn:hover {
     transition: all 0.3s;
   color: #FF6B6B;
 }
-/* Base styles remain the same... */
-
-/* --- Responsive adjustments --- */
-
-/* Medium devices: tablets */
 @media (min-width: 600px) {
   .header {
     height: 250px;
